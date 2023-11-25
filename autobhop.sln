@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "autobhop", "autobhop\autobh
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "submodules", "submodules", "{882269D8-C096-4FEA-A465-BD733D04F003}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommons", "ECommons\ECommons\ECommons.csproj", "{ECFFF8F6-F0D1-4676-BC75-E4CF20C5310F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommons", "ECommons\ECommons\ECommons.csproj", "{DC14CF56-FB50-4D24-BB26-CB781940F737}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +19,16 @@ Global
 		{13C812E9-0D42-4B95-8646-40EEBF30636F}.Debug|x64.Build.0 = Release|x64
 		{13C812E9-0D42-4B95-8646-40EEBF30636F}.Release|x64.ActiveCfg = Release|x64
 		{13C812E9-0D42-4B95-8646-40EEBF30636F}.Release|x64.Build.0 = Release|x64
-		{ECFFF8F6-F0D1-4676-BC75-E4CF20C5310F}.Debug|x64.ActiveCfg = Debug|x64
-		{ECFFF8F6-F0D1-4676-BC75-E4CF20C5310F}.Debug|x64.Build.0 = Debug|x64
-		{ECFFF8F6-F0D1-4676-BC75-E4CF20C5310F}.Release|x64.ActiveCfg = Release|x64
-		{ECFFF8F6-F0D1-4676-BC75-E4CF20C5310F}.Release|x64.Build.0 = Release|x64
+		{DC14CF56-FB50-4D24-BB26-CB781940F737}.Debug|x64.ActiveCfg = Debug|x64
+		{DC14CF56-FB50-4D24-BB26-CB781940F737}.Debug|x64.Build.0 = Debug|x64
+		{DC14CF56-FB50-4D24-BB26-CB781940F737}.Release|x64.ActiveCfg = Release|x64
+		{DC14CF56-FB50-4D24-BB26-CB781940F737}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{ECFFF8F6-F0D1-4676-BC75-E4CF20C5310F} = {882269D8-C096-4FEA-A465-BD733D04F003}
+		{DC14CF56-FB50-4D24-BB26-CB781940F737} = {882269D8-C096-4FEA-A465-BD733D04F003}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B17E85B1-5F60-4440-9F9A-3DDE877E8CDF}
