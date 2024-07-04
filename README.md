@@ -1,6 +1,7 @@
 ## Auto Bunnyhop
 Simple plugin that spams Spacebar for you while Spacebar is held down in Final Fantasy XIV, which replicates auto-jump (auto bunnyhop).
 
+![autobhop](https://raw.githubusercontent.com/spooee/ffxiv_autobhop/main/icon.png)
 ## Installation
 - Type ```/xlsettings``` in chat
 - Head to the "Experimental" tab
