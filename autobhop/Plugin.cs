@@ -43,9 +43,9 @@ namespace autobhop
             IntPtr foregroundWindow = GetForegroundWindow();
             if (foregroundWindow == this.ffxivWindowHandle)
             {
-                if (GenericHelpers.IsKeyPressed(Keys.Space) && !InFlight)
+                if (GenericHelpers.IsKeyPressed((ECommons.Interop.LimitedKeys)Keys.Space) && !InFlight)
                 {
-                    ECommons.Automation.WindowsKeypress.SendKeypress(Keys.Space);
+                    ECommons.Automation.WindowsKeypress.SendKeypress((ECommons.Interop.LimitedKeys)Keys.Space);
                 }
             }
         }
@@ -53,6 +53,7 @@ namespace autobhop
         public void Dispose()
         {
             Service.Framework.Update -= onFrameworkUpdate;
+            ECommonsMain.Dispose();
         }
     }
 }
