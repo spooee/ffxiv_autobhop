@@ -12,7 +12,7 @@ namespace autobhop
 {
     public sealed class Plugin : IDalamudPlugin
     {
-        private DalamudPluginInterface PluginInterface { get; init; }
+        private IDalamudPluginInterface PluginInterface { get; init; }
         private ICommandManager CommandManager { get; init; }
         private bool InFlight => Service.Condition[ConditionFlag.InFlight];
 
@@ -25,8 +25,8 @@ namespace autobhop
         private readonly IntPtr ffxivWindowHandle;
 
         public Plugin(
-            [RequiredVersion("1.0")] DalamudPluginInterface pluginInterface,
-            [RequiredVersion("1.0")] ICommandManager commandManager)
+            IDalamudPluginInterface pluginInterface,
+            ICommandManager commandManager)
         {
             this.PluginInterface = pluginInterface;
             this.CommandManager = commandManager;
